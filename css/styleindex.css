@@ -1,0 +1,183 @@
+.header img {
+  width: 200px;
+  height: 85px;
+}
+.header {
+  display: grid;
+  grid-template-columns: 500px auto 300px;
+  align-items: center;
+  padding: 0px 8px 10px;
+  margin: 0px -8px;
+}
+.header > div:nth-child(2) {
+  height: 50px;
+}
+.header > div:nth-child(2) input {
+  height: 30px;
+  width: 250px;
+}
+.header > div:nth-child(2) button {
+  background-color: #f76e12;
+  border: none;
+  color: white;
+  height: 30px;
+}
+div#main {
+  margin-left: 150px;
+  display: flex;
+}
+.header {
+  border-bottom: 3px solid black;
+}
+.left_content > :first-child img {
+  width: 120px;
+  height: 180px;
+}
+.left_content > :first-child {
+  display: grid;
+  grid-template-columns: 110px;
+  grid-template-rows: auto auto auto auto;
+  row-gap: 10px;
+}
+.left_content > :last-child img {
+  height: 760px;
+  width: 485px;
+}
+.left_content {
+  display: grid;
+  grid-template-columns: 120px 485px;
+  column-gap: 10px;
+  margin-left: 100px;
+}
+.best_seller {
+  display: grid;
+  grid-template-columns: 710px 1fr;
+  column-gap: 50px;
+}
+.best_seller h1 {
+  grid-column: 1/3;
+  text-align: center;
+  color: #ff9b0e;
+  margin: 40px 0px;
+}
+.right_content > :first-child {
+  color: rgb(22, 123, 254);
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.right_content {
+  margin-right: 70px;
+}
+.right_content p {
+  font-size: 19px;
+}
+.right_content > :nth-child(2) {
+  color: rgb(4, 212, 178);
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+.right_content del {
+  color: red;
+}
+.right_content form p {
+  display: grid;
+  grid-template-columns: 100px 110px auto;
+}
+.right_content input {
+  width: 100px;
+}
+.right_content .item1 > :last-child {
+  grid-column: 2/3;
+}
+.button2 {
+  display: flex;
+  gap: 10px;
+  margin-left: 170px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.sale_off {
+  display: grid;
+  grid-template-columns: auto 285px 285px 1fr;
+  column-gap: 50px;
+}
+.sale_off img {
+  width: 285px;
+  height: 450px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.sale_off h1 {
+  grid-column: 1/5;
+  text-align: center;
+  color: #ff9b0e;
+  margin: 40px 0px;
+}
+.sale_off > div * {
+  text-align: center;
+}
+.sale_off p {
+  color: red;
+}
+.sale_off del {
+  color: rgb(151, 151, 151);
+}
+
+.sale_off h4 {
+  margin-top: 10px;
+  height: 37px;
+}
+.sale_off div {
+  box-shadow: 1px 1px 8px rgb(0, 0, 0, 0.8);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.button2 div {
+  background-color: rgb(4, 154, 147);
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.sale_off div div {
+  width: 90px;
+  height: 40px;
+  background-color: rgb(4, 154, 147);
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  box-shadow: none;
+}
+.last_img {
+  width: 285px;
+}
+.first_img {
+  width: 285px;
+  margin-left: 70px;
+}
+.footer {
+  background-color: rgb(75, 73, 73);
+  color: white;
+  height: 100%;
+  margin: 40px -8px -8px;
+  display: grid;
+  grid-row: auto auto auto;
+  justify-content: center;
+  align-items: center;
+}
+.footer * {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.footer > :nth-child(2) {
+  margin: 0px;
+}
